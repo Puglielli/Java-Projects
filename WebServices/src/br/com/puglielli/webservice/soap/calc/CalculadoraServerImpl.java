@@ -2,7 +2,7 @@ package br.com.puglielli.webservice.soap.calc;
  
 import javax.jws.WebService;
  
-@WebService(endpointInterface = "calc.CalculadoraServer")
+@WebService(endpointInterface = "br.com.puglielli.webservice.soap.calc.CalculadoraServer")
 public class CalculadoraServerImpl implements CalculadoraServer {
      
   public float soma(float num1, float num2) {
